@@ -1,4 +1,4 @@
-/*! For license information please see main.4ac54a7b.js.LICENSE.txt */
+/*! For license information please see main.3c4e6253.js.LICENSE.txt */
 (()=>{var __webpack_modules__={111:(__unused_webpack_module,__webpack_exports__,__webpack_require__)=>{"use strict";__webpack_require__.d(__webpack_exports__,{A:()=>__WEBPACK_DEFAULT_EXPORT__});var _styled__WEBPACK_IMPORTED_MODULE_0__=__webpack_require__(615),_components_Button__WEBPACK_IMPORTED_MODULE_1__=__webpack_require__(423),_components_Input__WEBPACK_IMPORTED_MODULE_2__=__webpack_require__(963),react__WEBPACK_IMPORTED_MODULE_3__=__webpack_require__(43),react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__=__webpack_require__(579);function App(){const[input,setInput]=(0,react__WEBPACK_IMPORTED_MODULE_3__.useState)(""),adicionarNumero=e=>{input.includes("Error")&&limparCalculo(),setInput((t=>`${t}${e}`))},calcularResultado=()=>{const numerosValidos=/[0-9\+\-\*\/\()%.]/g,inputSemNumeros=input.replace(numerosValidos,"");if(""!==input)if(inputSemNumeros)setInput("");else try{setInput(eval(input).toString())}catch(error){setInput("Error")}},limparCalculo=()=>{setInput("")};return(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div",{className:"App",children:(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_styled__WEBPACK_IMPORTED_MODULE_0__.mc,{children:(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(_styled__WEBPACK_IMPORTED_MODULE_0__.UC,{children:[(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_styled__WEBPACK_IMPORTED_MODULE_0__.eB,{children:"CALCULADORA REACT"}),(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Input__WEBPACK_IMPORTED_MODULE_2__.A,{value:input}),(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(_styled__WEBPACK_IMPORTED_MODULE_0__.fI,{children:[(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Button__WEBPACK_IMPORTED_MODULE_1__.A,{Nome:"(",onClick:()=>adicionarNumero("(")}),(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Button__WEBPACK_IMPORTED_MODULE_1__.A,{Nome:")",onClick:()=>adicionarNumero(")")}),(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Button__WEBPACK_IMPORTED_MODULE_1__.A,{Nome:"%",onClick:()=>adicionarNumero("%")}),(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Button__WEBPACK_IMPORTED_MODULE_1__.A,{Nome:"C",onClick:()=>limparCalculo()})]}),(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(_styled__WEBPACK_IMPORTED_MODULE_0__.fI,{children:[(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Button__WEBPACK_IMPORTED_MODULE_1__.A,{Nome:"7",onClick:()=>adicionarNumero("7")}),(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Button__WEBPACK_IMPORTED_MODULE_1__.A,{Nome:"8",onClick:()=>adicionarNumero("8")}),(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Button__WEBPACK_IMPORTED_MODULE_1__.A,{Nome:"9",onClick:()=>adicionarNumero("9")}),(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Button__WEBPACK_IMPORTED_MODULE_1__.A,{Nome:"/",onClick:()=>adicionarNumero("/")})]}),(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(_styled__WEBPACK_IMPORTED_MODULE_0__.fI,{children:[(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Button__WEBPACK_IMPORTED_MODULE_1__.A,{Nome:"4",onClick:()=>adicionarNumero("4")}),(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Button__WEBPACK_IMPORTED_MODULE_1__.A,{Nome:"5",onClick:()=>adicionarNumero("5")}),(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Button__WEBPACK_IMPORTED_MODULE_1__.A,{Nome:"6",onClick:()=>adicionarNumero("6")}),(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Button__WEBPACK_IMPORTED_MODULE_1__.A,{Nome:"*",onClick:()=>adicionarNumero("*")})]}),(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(_styled__WEBPACK_IMPORTED_MODULE_0__.fI,{children:[(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Button__WEBPACK_IMPORTED_MODULE_1__.A,{Nome:"1",onClick:()=>adicionarNumero("1")}),(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Button__WEBPACK_IMPORTED_MODULE_1__.A,{Nome:"2",onClick:()=>adicionarNumero("2")}),(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Button__WEBPACK_IMPORTED_MODULE_1__.A,{Nome:"3",onClick:()=>adicionarNumero("3")}),(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Button__WEBPACK_IMPORTED_MODULE_1__.A,{Nome:"-",onClick:()=>adicionarNumero("-")})]}),(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(_styled__WEBPACK_IMPORTED_MODULE_0__.fI,{children:[(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Button__WEBPACK_IMPORTED_MODULE_1__.A,{Nome:"0",onClick:()=>adicionarNumero("0")}),(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Button__WEBPACK_IMPORTED_MODULE_1__.A,{Nome:".",onClick:()=>adicionarNumero(".")}),(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Button__WEBPACK_IMPORTED_MODULE_1__.A,{Nome:"=",onClick:()=>calcularResultado()}),(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Button__WEBPACK_IMPORTED_MODULE_1__.A,{Nome:"+",onClick:()=>adicionarNumero("+")})]})]})})})}const __WEBPACK_DEFAULT_EXPORT__=App},423:(e,t,n)=>{"use strict";n.d(t,{A:()=>l});n(43);const r=n(464).Ay.button`
     display: flex;
     align-items: center;
@@ -57,9 +57,9 @@
     box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.4),
                 inset -2px -2px 4px rgba(255, 255, 255, 0.5);
   }
-`;var a=n(579);function l(e){let{value:t}=e;return(0,a.jsx)(r,{value:t})}},615:(e,t,n)=>{"use strict";n.d(t,{UC:()=>l,eB:()=>i,fI:()=>o,mc:()=>a});var r=n(464);const a=r.Ay.div`
+`;var a=n(579);function l(e){let{value:t}=e;return(0,a.jsx)(r,{value:t,disabled:!0})}},615:(e,t,n)=>{"use strict";n.d(t,{UC:()=>l,eB:()=>i,fI:()=>o,mc:()=>a});var r=n(464);const a=r.Ay.div`
   width: 100%;
-  height: 100vh;
+  height: 100dvh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,14 +67,15 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 90vh;
+  height: 100%;
+
   border: 2px solid #000;
   background-color: #444;
   box-shadow: -10px 10px 0 #222;
 
   @media only screen and (min-width: 375px) {
-    max-width: 90%;
-    height: 100vh;
+    max-width: 95%;
+
     
   }
 
@@ -117,6 +118,5 @@
     background-color: #808080;
   }
 
-
 `;var a=__webpack_require__(579);t.createRoot(document.getElementById("root")).render((0,a.jsxs)(e.StrictMode,{children:[(0,a.jsx)(r,{}),(0,a.jsx)(n.A,{})]}))})()})();
-//# sourceMappingURL=main.4ac54a7b.js.map
+//# sourceMappingURL=main.3c4e6253.js.map
