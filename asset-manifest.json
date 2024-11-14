@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/Calculadora-React-Responsiva/static/js/main.9e0cc2d9.js",
+    "main.js": "/Calculadora-React-Responsiva/static/js/main.4ac54a7b.js",
     "index.html": "/Calculadora-React-Responsiva/index.html",
-    "main.9e0cc2d9.js.map": "/Calculadora-React-Responsiva/static/js/main.9e0cc2d9.js.map"
+    "main.4ac54a7b.js.map": "/Calculadora-React-Responsiva/static/js/main.4ac54a7b.js.map"
   },
   "entrypoints": [
-    "static/js/main.9e0cc2d9.js"
+    "static/js/main.4ac54a7b.js"
   ]
 }
