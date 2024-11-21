@@ -1,7 +1,6 @@
 ## [Link do Projeto Aqui](https://andreailton.github.io/Calculadora-React-Responsiva/)  
 [Clique Aqui](https://andreailton.github.io/Calculadora-React-Responsiva/)
 
---
 
 **Calculadora React**
 ======================
